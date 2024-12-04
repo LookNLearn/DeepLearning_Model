@@ -13,7 +13,7 @@ import warnings
 from PIL import ImageFile
 from facenet_pytorch import MTCNN  # MTCNN 라이브러리 추가
 
-# 경고 무시 설정
+# 경고 무시 설정 _ 설정필수
 warnings.filterwarnings("ignore", message="Corrupt EXIF data")
 warnings.filterwarnings("ignore", message="Truncated File Read")
 ImageFile.LOAD_TRUNCATED_IMAGES = True
